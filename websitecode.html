@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bajrang Bali Fitness</title>
+    <link rel="stylesheet" href="https://fonts.google.com/css?family=Baloo+Bhai&display=swap">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body {
+            font-family: 'Baloo Bhai', cursive;
+            background: url('background.jpg');
+            background-size: cover;
+            color: white;
+        }
+
+        .left {
+            /* border: 2px solid red; */
+            display: inline-block;
+            position: absolute;
+            top: 33px;
+            left: 45px;
+        }
+
+        .left img {
+            width: 74px;
+            position: relative;
+            padding: 6px 30px 6px 30px;
+            filter: invert(100%);
+        }
+
+        .left a {
+            color: white;
+            text-decoration: none;
+            font-style: inherit;
+        }
+
+        .left a:hover {
+            text-decoration: underline;
+            color: aqua;
+        }
+
+
+
+        .mid {
+            /* border: 2px solid green; */
+            display: block;
+            width: 65%;
+            margin: 33px auto;
+        }
+
+        .navbar {
+            display: inline-block;
+        }
+
+        .navbar li {
+            display: inline-block;
+
+            font-size: 25px;
+        }
+
+        .navbar li a {
+            text-decoration: none;
+            color: white;
+            padding: 9px 32px;
+
+        }
+
+        .navbar li a:hover {
+            color: cyan;
+            text-decoration: underline;
+        }
+
+
+
+        .right {
+            /* border: 2px solid blue; */
+            display: inline-block;
+            position: absolute;
+            right: 45px;
+            top: 33px;
+        }
+
+        .btn {
+            font-family: 'Baloo Bhai', cursive;
+            color: black;
+            background-color: white;
+            padding: 7px 9px;
+            border: 2px solid grey;
+            border-radius: 10px;
+            font-size: 13px;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            color: white;
+            background-color: black;
+        }
+
+        .container {
+            /* border: 2px solid brown; */
+            display: inline-block;
+            margin: 50px 230px;
+            padding: 6px 6px;
+        }
+
+        .container li {
+            font-size: 20px;
+            padding: 6px 6px;
+        }
+
+        .container h1 {
+            color: rgb(75, 238, 54);
+        }
+
+        .container button {
+            position: relative;
+            margin: 29px 166px;
+        }
+
+        .container li input {
+            text-align: center;
+            border-radius: 6px;
+            padding: 8px;
+            font-size: 18px;
+            background: transparent;
+        }
+
+        .container li input:hover {
+            color: rgb(75, 238, 54);
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="logo.png" alt="">
+            <div><a href="#">Bajrang Bali Fitness</a></div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Hurry! 30% off for first 100 signups </h1>
+        <ul>
+            <li> Name : <input type="text" name="Myname" placeholder="Enter your name"></li>
+            <li> Gender : Male<input type="radio" name="gender">Female<input type="radio" name="gender">Other<input
+                    type="radio" name="gender"></li>
+            <li>Age : <input type="number" name="myage" placeholder="Enter your age"></li>        
+            <li> Email : <input type="email" name="Emali" placeholder="Enter your email address"></li>
+            <li> Mobile No. : <input type="text" name="mobileNum" placeholder="Enter your mobile no."></li>
+            <button class="btn">Submit</button>
+        </ul>
+    </div>
+</body>
+
+</html>
